@@ -1,4 +1,4 @@
-function [S] = customGA(f, nvars, ngen, plotFunc)
+function [S] = simpleGA(f, nvars, ngen, plotFunc)
 
 S = rand(ngen, nvars);
 
