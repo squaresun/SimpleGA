@@ -25,12 +25,14 @@ Crossovers the whole population. Each pair crossover with respect to their dimen
 Example, crossover `a` and `b`:
 
 **before**:
+
 | chromosome | t1 | t2 | t3 |
 | --- | --- | --- | --- |
 | a | 101111**01** | 10**101011** | 0100**1101** |
 | b | 101100**00** | 11**000110** | 0101**0001** |
 
 **after**:
+
 | chromosome | t1 | t2 | t3 |
 | --- | --- | --- | --- |
 | a | 10111100 | 10000110 | 01000001 |
