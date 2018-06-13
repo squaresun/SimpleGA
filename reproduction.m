@@ -1,3 +1,5 @@
+%% reproduction crossovers all parents in S
+% n = encoding binary size
 function [S_new] = reproduction(S, n)
 
 S_new = zeros(size(S));

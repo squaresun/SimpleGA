@@ -1,3 +1,5 @@
+%% plotPath creates and uses a global var: PLOTTERS
+% PLOTTERS stores all plotted path and points
 function [plotFunc] = plotPath(f, beziers, a, b)
 
 global PLOTTERS;
@@ -26,4 +28,4 @@ plotters(2) = plot(pts(:, 1),pts(:, 2),'ro','MarkerSize',10,'MarkerFaceColor','r
 
 PLOTTERS = plotters;
 
-pause(0.1);
+pause(0);

@@ -1,3 +1,4 @@
+%% Return the fitness of each individual
 function [fitS] = fitness(f, S)
 
 fitS = zeros(1, size(S, 1));
